@@ -1,0 +1,83 @@
+<!--show our home page with login links-->
+
+<!doctype html>
+<html> 
+<head>
+    <title>Node Authentication</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"> <!-- load bootstrap css -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"> <!-- load fontawesome -->
+    <link rel="stylesheet" href="/styles/salesforce-lightning-design-system.css"> 
+</head>   
+<body>     
+
+<div class="slds slds-p-around_small">
+<div class="slds-page-header">
+	<div class="slds-media">
+	<div class="slds-media__figure">
+	</div>
+	<div class="slds-media__body">
+		<h1 class="slds-page-header__title slds-truncate slds-align-middle" title="Rohde Corp - 80,000 Widgets">Registration Form</h1>
+	</div>
+	</div>
+</div>   
+<div class="slds-form slds-form_stacked slds-p-around_medium">
+
+   	<div class="slds-form-element">
+		<label class="slds-form-element__label" for="firstName">First Name</label>
+		<div class="slds-form-element__control">
+			<input type="text" id="firstName" class="slds-input" placeholder="First Name" />
+		</div>
+	</div>
+	<div class="slds-form-element">
+		<label class="slds-form-element__label" for="lastName">Last Name</label>
+		<div class="slds-form-element__control">
+			<input type="text" id="lastName" class="slds-input" placeholder="Last Name" />
+		</div>
+	</div>
+	<div class="slds-form-element">
+		<label class="slds-form-element__label" for="email">Email</label>
+		<div class="slds-form-element__control">
+			<input type="text" id="email" class="slds-input" placeholder="email" />
+		</div>
+	</div>
+	<div class="slds-form-element">
+		<label class="slds-form-element__label" for="phone">Phone</label>
+		<div class="slds-form-element__control">
+			<input type="text" id="phone" class="slds-input" placeholder="Phone" />
+		</div>
+	</div>    
+	<fieldset class="slds-form-element">
+		<legend class="slds-form-element__legend slds-form-element__label">Checkbox Group label</legend>
+		<div class="slds-form-element__control">
+			<span class="slds-radio">
+				<input type="radio" id="male" name="options" value="on" />
+				<label class="slds-radio__label" for="radio-3">
+					<span class="slds-radio_faux"></span>
+					<span class="slds-form-element__label">Male</span>
+				</label>
+			</span>
+			<span class="slds-radio">
+				<input type="radio" id="female" name="options" value="on" />
+				<label class="slds-radio__label" for="radio-4">
+					<span class="slds-radio_faux"></span>
+					<span class="slds-form-element__label">Female</span>
+				</label>
+			</span>
+		</div>    
+	</fieldset>
+
+	<div class="slds-clearfix">   
+	  <div class="slds-float_right">
+	    <button class="slds-button_brand" id="Save">Save</button>
+	  </div>
+	</div>
+
+
+</div>  
+
+
+</div>
+
+</body>
+</html>
+  
