@@ -14,6 +14,6 @@
     "method-override": "~1.0.0",
     "morgan": "~1.0.0",
     "pg": "4.5.7",
-    "pg-promise": "3.3.0"
+    "pg-promise": "11.5.5"
   }   
 }
